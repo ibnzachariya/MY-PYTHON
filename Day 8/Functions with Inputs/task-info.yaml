@@ -1,0 +1,20 @@
+type: theory
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+  - name: Practice.py
+    visible: true
+    learner_created: true
+  - name: practice2.py
+    visible: true
+    learner_created: true
+  - name: Excercise.py
+    visible: true
+    learner_created: true
+status: Solved
+record: -1
+post_submission_on_open: true

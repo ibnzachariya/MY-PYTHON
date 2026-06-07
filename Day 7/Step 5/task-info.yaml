@@ -1,0 +1,41 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+  - name: hangman_art.py
+    visible: true
+    learner_created: false
+  - name: hangman_words.py
+    visible: true
+    learner_created: false
+  - name: classwork3.py
+    visible: true
+    learner_created: true
+  - name: classwork3 another method.py
+    visible: true
+    learner_created: true
+  - name: classwork3 method3.py
+    visible: true
+    learner_created: true
+  - name: classwork4.py
+    visible: true
+    learner_created: true
+  - name: classwork4 method 2.py
+    visible: true
+    learner_created: true
+  - name: jhjkh.py
+    visible: true
+    learner_created: true
+  - name: Assignment.py
+    visible: true
+    learner_created: true
+status: Solved
+record: -1
+post_submission_on_open: true
