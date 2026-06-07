@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>⚙️ Equipment Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>⚙️ Oil & Gas Equipment Tracker 🛢️</h1>
+
+    <form method="POST" action="{{ url_for('add_equipment') }}" class="form-box">
+        <input type="text" name="name" placeholder="Enter equipment name" required>
+        <select name="status">
+            <option value="Available">✅ Available</option>
+            <option value="In Use">🔧 In Use</option>
+            <option value="Maintenance">🛠️ Maintenance</option>
+        </select>
+        <button type="submit">➕ Add Equipment</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Equipment Name</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.id }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.status }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

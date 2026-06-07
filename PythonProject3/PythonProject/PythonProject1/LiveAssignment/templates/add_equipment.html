@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="POST">
+    <input type="text" name="name" placeholder="🛢️ Equipment name..." required>
+    <select name="status">
+        <option value="Available">✅ Available</option>
+        <option value="In Use">⚙️ In Use</option>
+        <option value="Maintenance">🔧 Maintenance</option>
+    </select>
+    <button type="submit">➕ Add</button>
+</form>
+{% endblock %}
